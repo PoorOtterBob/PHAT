@@ -1,9 +1,6 @@
-from turtle import ycor
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import sys
-import math
 
 from ts_benchmark.baselines.phat.layers.DyT import DyT
 from ts_benchmark.baselines.phat.layers.RevIN import RevIN
