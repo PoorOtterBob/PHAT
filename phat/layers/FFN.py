@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from ts_benchmark.baselines.phast.layers.Function import index_select
+from ts_benchmark.baselines.phat.layers.Function import index_select
 
 
 class Linear(nn.Linear):
